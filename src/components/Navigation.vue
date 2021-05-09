@@ -73,7 +73,7 @@
 <script>
 import AddMember from "./AddMember";
 import EditMember from "./EditMember";
-import AddContent from "./AddContent";
+// import AddContent from "./AddContent";
 
 export default {
   name: "Navigation",
@@ -110,7 +110,7 @@ export default {
   components: {
     "add-member": AddMember,
     "edit-member": EditMember,
-    "add-content": AddContent
+    // "add-content": AddContent
   },
 };
 </script>
