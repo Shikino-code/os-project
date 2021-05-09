@@ -30,7 +30,7 @@
                 quis metus ac quis elementum ultricies. Sit sagittis mauris
                 suspendisse maecenas. Eget eu arcu elementum neque dolor pretium
               </v-card-text>
-              </div>
+             
             </v-card-text>
 
             <v-divider class="mx-3"></v-divider>
