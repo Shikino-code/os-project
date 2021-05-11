@@ -11,7 +11,7 @@ Vue.use(VueAxios, axios)
 const routes = [
   {
     path: '/',
-    redirect: 'calendar'
+    redirect: 'home'
   },
   {
     path: '/calendar',
@@ -30,26 +30,6 @@ const routes = [
     component: () => import('../views/Content.vue')
   },
   {
-    path: '/content/addcontent',
-    name: 'เพิ่มบทความ',
-    component: () => import('../views/AddContent.vue')
-  },
-  {
-    path: '/fortune-telling',
-    name: 'ดูดวง',
-    component: () => import('../views/FortuneTelling.vue')
-  },
-  {
-    path: '/auspicious',
-    name: 'ดูฤกษ์',
-    component: () => import('../views/Auspicious.vue')
-  },
-  {
-    path: '/test',
-    name: 'ทดสอบ',
-    component: () => import('../views/Test.vue')
-  },
-  {
     path: '/signin',
     name: 'เข้าสู่ระบบ',
     component: () => import('../views/Signin.vue')
@@ -57,7 +37,7 @@ const routes = [
   {
     // Test Purpose, Deleter later
     path: '/signup',
-    name: 'ลงทะเบียน(test)',
+    name: 'ลงทะเบียน',
     component: () => import('../views/signup.vue')
   },
 
