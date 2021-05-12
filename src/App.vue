@@ -34,3 +34,10 @@ export default {
   },
 };
 </script>
+
+<style lang="scss">
+main {
+  background-image: url('./assets/blueBG.jpg');
+  background-size: cover;
+}
+</style>
