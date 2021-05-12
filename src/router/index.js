@@ -11,12 +11,17 @@ Vue.use(VueAxios, axios)
 const routes = [
   {
     path: '/',
-    redirect: 'home'
+    redirect: 'Homepage'
   },
   {
     path: '/calendar',
     name: 'ปฏิทิน',
     component: () => import('../views/Calendar.vue')
+  },
+  {
+    path: '/homepage',
+    name: 'Homepage',
+    component: () => import('../views/Homepage.vue')
   },
   
   {
@@ -38,7 +43,25 @@ const routes = [
     // Test Purpose, Deleter later
     path: '/signup',
     name: 'ลงทะเบียน',
-    component: () => import('../views/signup.vue')
+    component: () => import('../views/Signup.vue')
+  },
+  {
+    // Test Purpose, Deleter later
+    path: '/1',
+    name: '1',
+    component: () => import('../views/1.vue')
+  },
+  {
+    // Test Purpose, Deleter later
+    path: '/2',
+    name: '2',
+    component: () => import('../views/2.vue')
+  },
+  {
+    // Test Purpose, Deleter later
+    path: '/3',
+    name: '3',
+    component: () => import('../views/3.vue')
   },
 
 ]
