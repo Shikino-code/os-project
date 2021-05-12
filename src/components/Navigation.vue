@@ -3,7 +3,7 @@
     <v-app-bar app color="white" outlined elevation="1">
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
-      <v-btn>sss</v-btn>
+      <v-btn to="/main"><v-icon medium>mdi-home</v-icon></v-btn>
       <v-btn>sss</v-btn>
       <v-spacer></v-spacer>
       <v-btn>sss</v-btn>
